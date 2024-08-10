@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header, footer {
+    background-color: #343a40;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #343a40;
+}
+
+#skills ul {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#projects .card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    #projects .card {
+        margin-bottom: 15px;
+    }
+}
